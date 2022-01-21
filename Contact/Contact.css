@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Rubik+Beastly&display=swap');
+
+
+body {
+    background-image: url("https://i.pinimg.com/564x/1b/b4/b3/1bb4b3ec8faa6f90682fb9b5bbc872e0.jpg");
+    background-repeat: repeat;
+    background-color: lightcoral;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h {
+    font-family: 'Rubik Beastly', cursive;
+    font-size: 100px;
+    color: bisque;
+    text-shadow: 2px 2px black;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 5px 0px;
+}
+
+/*Inhoudsopgave*/
+
+.container {
+    background-color: #D3E3D6;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+    margin-top: 25px;
+}
+
+.item {
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0px 20px 0px 10px;
+    font-size: 25px;
+}
+
+.link {
+    text-decoration: none;
+    cursor: cell;
+}
+
+.link:link {color: lightseagreen;}
+.link:visited {color: lightseagreen;}
+.link:hover {color: bisque;}
+
+
+/*Main*/
+
+
+.container2 {
+    background-color: #D3E3D6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: 650px;
+    margin: 50px;
+    padding: 100px 50px 100px 50px;
+}
+
+#form {
+    border-color: bisque;
+    border-style: solid;
+    border-width: thick;
+    padding: 25px;
+}
+
+.name {
+    width: 50%;
+    padding: 5px;
+}
+
+.email {
+    width: 50%;
+    padding: 5px;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+}
